@@ -5,6 +5,8 @@ require './square.php';
 
 // Get Inputs
 printf("Enter size: ");
+
+
 fscanf(STDIN, "%d", $size);
 
 if ($size < 3 || $size % 2 == 0) {
